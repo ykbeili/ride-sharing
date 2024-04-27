@@ -5,5 +5,5 @@ class Organization < ApplicationRecord
          :recoverable, :rememberable, :validatable
   
 
-  # has_many :employees
+  has_many :employees
 end
